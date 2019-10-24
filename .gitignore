@@ -1,0 +1,4 @@
+.vagrant
+*.log
+.stack-work
+.ipynb_checkpoints

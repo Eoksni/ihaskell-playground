@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  ihaskell-playground:
+    image: crosscompass/ihaskell-notebook:latest
+    volumes:
+      - .:/home/jovyan/pwd
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "mytoken"
