@@ -1,3 +1,9 @@
+# Vagrant
+
+```sh
+vagrant up
+```
+
 # VSCode Remote SSH Over Vagrant
 
 Set up vscode to have vagrant ssh host:
